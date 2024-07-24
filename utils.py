@@ -145,7 +145,8 @@ if __name__ == '__main__':
         plt.plot(timesteps.cpu().numpy(), image_noise_levels.cpu().numpy(), color='red', label='Fake' if i == 0 else "")
 
     
-
+    # FAKE RED IMAGE CURVE IS MUCH LOWER THAN REAL IMAGE BLUE CURVE: LESS NOISE NEEDS TO BE REMOVED
+    # ALSO MAKE A CLASSIFIER WITH THIS!
 
 
     # Convert noise_levels to CPU for plotting if necessary
